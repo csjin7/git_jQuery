@@ -7,14 +7,14 @@ $(function(){
     $('#buttons1 button:nth-child(-n+4)')
         .on('mouseover', function() {
             $(this).stop(true).animate({
-                backgroundColor: '#ae5e9b',
-                color: '#fff'
+                backgroundColor: 'blue',
+                color: 'red'
             }, duration);
         })
         .on('mouseout', function(){
             $(this).stop(true).animate({
-                backgroundColor: '#fff',
-                color: '#ebc000'
+                backgroundColor: 'blue',
+                color: 'red'
             }, duration);
         });
 
